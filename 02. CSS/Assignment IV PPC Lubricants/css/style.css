@@ -54,11 +54,81 @@ header img {
 
 #nav-bar ul li{
     display: inline-block;
-    border-left: 1px solid silver;
+    border-left: 1px outset silver;
     padding-top: 10px;
 }
 #nav-bar a {
     text-decoration: none;
     color: #5F5F5F;
     padding: 10px;
+}
+#main {
+    background-color: black;
+    background: radial-gradient(#404040, black);
+}
+
+.main-pic {
+    border: 5px solid whitesmoke;
+    margin: 10px 10px 10px 25px;
+}
+
+article {
+    display: inline-block;
+    background-color: whitesmoke;
+    width: 222px;
+    height: 222px;
+    vertical-align: top;
+    margin: 10px 5px;
+}
+
+article:nth-of-type(2) {
+    margin-left: 25px;
+}
+
+#about {
+    width: 522px;
+    height: 265px;
+    background-color: #404040;
+    background: linear-gradient(to right, gray, #404040);
+    color: whitesmoke;
+    margin-left: 5px;
+}
+
+#about h3,
+#about p {
+    padding: 15px 20px 0px 15px;
+}
+
+#about h3 {
+    font-size: 12px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+article h2 {
+    background-color: #FFD800;
+    background: linear-gradient(#FFD856, #FFD856, #FFBB00, #FFD800);
+    padding: 5px;
+    color: black;
+    font-weight: 800;
+}
+
+article p {
+    padding: 10px;
+}
+
+article a {
+    margin-left: 115px;
+}
+
+#blurb {
+    color: #FFE97F;
+}
+
+#blurb img {
+    width: 50px;
+    border-radius: 2px;
+    margin: 0px 10px 0px 35px;
 }
