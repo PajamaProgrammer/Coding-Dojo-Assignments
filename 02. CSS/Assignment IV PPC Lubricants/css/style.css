@@ -1,0 +1,35 @@
+/*
+Pajama Programmer
+Coding Dojo - July 5 Online Flex
+6-July-2016
+Assignment IV PPC Lubricants
+*/
+* {
+    padding: 0;
+    margin: 0;
+     font-family: "Lato", sans-serif;
+}
+
+#container {
+ width: 970px;
+ background-color: whitesmoke;
+ margin: 5px auto;
+ box-shadow: 1px 1px 2px 1px #ddd;
+}
+
+header img,
+header h1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+header {
+    border-bottom: 1px solid gray;
+    background-color: whitesmoke;
+    background: linear-gradient(#E6E6E6,whitesmoke,whitesmoke,white);
+}
+
+header h1 {
+    font-size: 20px;
+    margin: 30px 0px 0px 250px;
+}
