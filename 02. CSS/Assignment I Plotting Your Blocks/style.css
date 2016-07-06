@@ -1,0 +1,68 @@
+/*
+*{
+    border: 1px solid black !important;
+}
+*/
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 950px;
+ background-color: silver;
+ margin: 0px auto;
+}
+#header{
+ height: 150px;
+ background-color: green;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: blue;
+}
+#main_content{
+ height: 400px;
+ width: 700px;
+ background-color: red;
+}
+.subcontents{
+ height: 200px;
+ width: 210px;
+ background-color: yellow;
+}
+#advertisement{
+ height: 120px;
+ width: 660px;
+ background-color: purple;
+}
+
+/*CSS Adjustments*/
+#wrapper {
+    padding: 20px;
+}
+#header {
+    margin: auto;
+}
+
+#navigation {
+    margin: 20px 20px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 30px;
+}
+
+#main_content {
+    margin: 20px 0 0 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.subcontents{
+    display: inline-block;
+    margin: 5px 5px;
+}
+#advertisement{
+    margin: 20px 5px 5px;
+}

@@ -1,0 +1,96 @@
+/*
+*{
+    border: 1px solid red !important;
+}
+*/
+/*CSS reset settings here*/
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#wrapper{
+ width: 970px;
+ background-color: whitesmoke;
+ margin: auto;
+ padding: 10px;
+}
+#header{
+ height: 75px;
+ background-color: silver;
+ border-radius: 25px;
+ margin-bottom: 20px;
+ padding: 1px;
+}
+#navigation{
+ height: 300px;
+ width: 200px;
+ background-color: silver;
+ border-radius: 25px;
+ display: inline-block;
+ vertical-align: top;
+ margin-right: 20px;
+ font-size: 10px;
+}
+#main_content{
+ height: 400px;
+ width: 720px;
+ background-color: gray;
+ border-radius: 25px;
+ padding: 12px;
+ display: inline-block;
+}
+#contact{
+ height: 40px;
+ width: 970px;
+ background-color: silver;
+ border-radius: 25px;
+ margin-top: 20px;
+ padding: 15px 0;
+}
+
+h1,
+h2,
+p {
+    margin: 15px;
+}
+
+ul {
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+li {
+    margin: 5px;
+}
+ul li ul {
+    margin: 0;
+    padding-left: 10px;
+}
+
+#main_content ul {
+    margin: 15px;
+    padding-left: 40px;
+}
+
+#main_content li {
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin: 0px 15px;
+}
+
+#navigation a {
+    text-decoration: none;
+}
+#navigation a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+#navigation p {
+    margin-bottom: 0;
+}
+
+
+

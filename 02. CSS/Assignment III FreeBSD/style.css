@@ -1,0 +1,146 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ font-family: "Lato", sans-serif;
+}
+#container {
+ width: 970px;
+ background-color: whitesmoke;
+ margin: auto;
+ box-shadow: 1px 1px 2px 1px #ddd;
+}
+
+#header {
+    background-color: #9F0000;
+    background: linear-gradient(#680000,#9F0000);
+    height: 68px;
+    color: white;
+}
+#header a {
+    color: orange;
+}
+
+.search-box {
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 230px;
+}
+
+#SEARCH {
+    font-size: 10px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+#SUBMIT {
+    font-size: 10px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 1px 2px;
+}
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 20px;
+    vertical-align: top;
+    margin-top: 25px;
+    font-family: cursive;
+    font-weight: 100;
+    width: 200px;
+}
+
+ul,
+ol {
+    font-size: 10px;
+    padding: 5px 0px 5px 20px;
+}
+
+ul li,
+ol li {
+    padding: 1px;
+}
+a {
+    color: #9F0000;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #9F0000;
+}
+
+h4,
+p {
+    padding: 5px 0px;
+    font-size: 12px;
+}
+
+h4 {
+    font-weight: 800;
+    color: #9F0000;
+}
+
+#nav-bar {
+    background-color: silver;
+    background: linear-gradient(whitesmoke,silver);
+    border-bottom: 1px solid #5F5F5F;
+}
+#nav-bar ul{
+    list-style: none;
+    font-weight: 600;
+}
+#nav-bar ul li{
+    display: inline-block;
+    margin: 5px 0px 10px;
+    padding: 0px 10px;
+    border-left: 1px solid #5F5F5F;
+}
+#nav-bar a {
+    text-decoration: none;
+    color: #5F5F5F;
+}
+
+#nav-bar li:first-child {
+     border-left: none;
+}
+/*
+.first-nav{
+    border-left: none !important;
+}
+*/
+#side-bar {
+    background-color: #E1E1E1;
+    border: 1px solid silver;
+    display: inline-block;
+    margin: 20px;
+    width: 110px;
+    vertical-align: top;
+}
+
+
+#side-bar ul {
+list-style-image: url('double-angle-arrow-pointing-to-right.png');
+}
+
+#side-bar ul li {
+    padding: 2px;
+}
+
+#main-content {
+    display: inline-block;
+    margin-top: 20px;
+    width: 750px;
+}
+
+.add-border-bottom {
+    border-bottom: 2px solid silver;
+}
+.bold {
+    font-weight: 800;
+}
