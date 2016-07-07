@@ -1,0 +1,275 @@
+/*
+Pajama Programmer
+Coding Dojo - July 5 Online Flex
+7-July-2016
+Assignment V WordStream
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-size: 10px;
+}
+
+#container {
+    width: 865px;
+    background-color: whitesmoke;
+    background: linear-gradient(silver, whitesmoke, whitesmoke, whitesmoke);
+    margin: 5px auto;
+    box-shadow: 1px 1px 2px 1px #ddd;
+}
+
+
+header {
+    background-color: white;
+}
+    header img {
+        margin: 20px 0 0 10px;
+    }
+    header h1 {
+        display: inline-block;
+        color: gray;
+        font-size: 36px;
+        font-weight: 500;
+        vertical-align: top;
+        margin: 30px 195px 0px 10px;
+    }
+    header span {
+        color: #0081AE;
+        font-size: 36px;
+    }
+
+    header ul {
+        list-style: none;
+        display: inline-block;
+        vertical-align: top;
+        border-right: 1px solid silver;
+        border-bottom: 1px solid silver;
+        border-left: 1px solid silver;
+        border-radius: 2px;
+    }
+
+    header ul li {
+        display: inline-block;
+        border-right: 1px solid gray;
+        padding: 1px 5px;
+        margin-bottom: 5px;
+    }
+
+    header ul li:last-child {
+        border-right: 0;
+    }
+
+    header a {
+        text-decoration: none;
+        color: gray;
+    }
+
+
+
+#login {
+    color: #E4FFFF;
+    background-color: #1580C4;
+    background: -webkit-linear-gradient(#48C0FF, #177FC1);
+    background: -o-linear-gradient(#48C0FF, #177FC1);
+    background: linear-gradient(#48C0FF, #177FC1);
+    padding: 3px 10px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    background-color: #147CC2;
+    padding: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    color: #0081AE;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0081AE;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+#side {
+    margin: 40px 10px;
+    width: 215px;
+    display: inline-block;
+}
+
+    #side h4 {
+        color: #E73F00;
+        margin-bottom: 2px;
+    }
+
+    #side span {
+        color: #0081AE;
+    }
+
+    #side a {
+        display: block;
+        width: 200px;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        background-color: #1580C4;
+        background: -webkit-linear-gradient(#48C0FF, #177FC1);
+        background: -o-linear-gradient(#48C0FF, #177FC1);
+        background: linear-gradient(#48C0FF, #177FC1);
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+
+    #side a:nth-of-type(2) {
+        background-color: #F07D00;
+        background: -webkit-linear-gradient(#F3A53D, #E44E00);
+        background: -o-linear-gradient(#F3A53D, #E44E00);
+        background: linear-gradient(#F3A53D, #E44E00);
+    }
+
+    #side p {
+        padding: 2px 0;
+        margin-bottom: 20px;
+    }
+    #side p:nth-of-type(2) {
+        text-align: center;
+    }
+
+    #side img {
+        margin-top: 10px;
+    }
+
+#main {
+    width: 575px;
+    margin-left: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+    #main > a {
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    #main > a img {
+        vertical-align: middle;
+        margin-right: 10px;
+        margin-bottom: 2px;
+        height: 20px;
+    }
+
+    #main > img {
+        margin-left: 370px;
+        height: 30px;
+    }
+
+    #main p {
+        margin: 15px 0px;
+    }
+
+    #main p,
+    #main ul {
+        margin-right: 25px;
+    }
+
+    #main span {
+        font-weight: 600;
+    }
+
+    #main ul {
+        list-style: none;
+    }
+
+    #main li {
+        padding: 5px 0;
+        margin-left: 10px;
+    }
+
+    #main li:before {
+    content: "◾ ";
+    color: #296F99;
+    display: block;
+    position: relative;
+    max-width: 0;
+    max-height: 0;
+    left: -10px;
+    }
+
+    #main li:after {
+        padding: 20px;
+    }
+
+    #main h4 {
+        color: #0081AE;
+    }
+
+#contact {
+    display: inline-block;
+    vertical-align: top;
+    width: 115px;
+    color: gray;
+    text-align: justify;
+    font-size: 8px;
+
+    margin: 0 !important;
+}
+
+    #contact span {
+        color: #3DB2F0;
+        font-size: 19px;
+    }
+
+#trial_Ad {
+    border: 4px solid #84BCDC;
+    width: 525px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+    #trial_Ad p,
+    #trial_Ad span {
+        font-size: 12px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+
+    #trial_Ad img,
+    #trial_Ad div {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #trial_Ad div {
+        width: 450px;
+    }
+
+    #trial_Ad a {
+        display: block;
+        width: 125px;
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+        color: white;
+        font-weight: 700;
+        background-color: #90B10A;
+        background: linear-gradient(#C2DA62, #90B204, #B7D300);
+        border-radius: 4px;
+        margin-top: 10px;
+    }
