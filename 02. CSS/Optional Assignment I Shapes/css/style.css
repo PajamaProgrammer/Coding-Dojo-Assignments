@@ -1,0 +1,37 @@
+/*
+Pajama Programmer
+Coding Dojo - July 5 Online Flex
+8-July-2016
+Optional Assignment I: Shapes
+*/
+
+#square {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+}
+
+#circle {
+    width: 140px;
+    height: 140px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#triangle {
+    width: 0px;
+    border-bottom: 140px solid blue;
+    border-right: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
+
+#pacman {
+    width: 0px;
+    height: 0px;
+    background-color: blue;
+    border-radius: 50%;
+    border-right: 70px solid white;
+    border-bottom: 70px solid transparent;
+    border-top: 70px solid transparent;
+    border-left: 70px solid transparent;
+}
