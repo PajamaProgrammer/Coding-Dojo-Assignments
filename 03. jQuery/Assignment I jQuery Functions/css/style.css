@@ -1,0 +1,48 @@
+/*
+Pajama Programmer
+Coding Dojo - July 5 Online Flex
+12-July-2016
+Assignment I: jQuery Functions
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+#container {
+    width: 960px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    box-shadow: 1px 1px 2px 1px #808080;
+    padding: 20px;
+}
+
+button,
+input {
+    margin: 20px;
+    box-shadow: 1px 1px 2px 1px #404040;
+}
+
+p {
+    display: inline-block;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+}
+
+#imgToggle {
+    display: none;
+}
+
+.red {
+    color: red;
+}
