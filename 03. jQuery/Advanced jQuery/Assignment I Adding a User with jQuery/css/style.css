@@ -1,0 +1,58 @@
+/*
+Pajama Programmer
+Coding Dojo - July 5 Online Flex
+14-July-2016
+Assignment: Adding a User with jQuery
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+}
+
+#container {
+    width: 960px;
+    background-color: whitesmoke;
+    margin: 5px auto;
+    box-shadow: 1px 1px 2px 1px #808080;
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #808080;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px;
+
+}
+
+form label {
+    display: block;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+form label:last-child {
+    margin-top: 45px;
+}
+
+table {
+    border: 1px solid black;
+    margin-bottom: 45px;
+}
+
+th,
+td {
+    padding: 2px 20px 2px 0px;
+    /*display: inline-block;
+    min-width: 150px;*/
+    text-align: left;
+}
+
+tbody {
+    margin-bottom: 45px;
+}
